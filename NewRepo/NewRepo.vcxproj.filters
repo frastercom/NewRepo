@@ -21,12 +21,18 @@
     <ClCompile Include="ReadFile.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="ActionPriority.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
     <ClCompile Include="Math.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReadFile.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionPriority.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Math.h">
