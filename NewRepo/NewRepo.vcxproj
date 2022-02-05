@@ -140,12 +140,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ActionPriority.cpp" />
+    <ClCompile Include="CheckTrue.cpp" />
     <ClCompile Include="NewRepo.cpp" />
     <ClCompile Include="ReadFile.cpp" />
     <ClCompile Include="Math.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ActionPriority.h" />
+    <ClInclude Include="CheckTrue.h" />
     <ClInclude Include="ReadFile.h" />
     <ClInclude Include="Math.h" />
   </ItemGroup>

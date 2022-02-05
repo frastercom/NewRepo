@@ -2,11 +2,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
 using namespace std;
-
-class ActionPriority
+class CheckTrue
 {
-	public: int work(vector<string> param);
+public: bool checkTrue(vector<string> a);
 };
 
