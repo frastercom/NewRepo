@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ActionPriority.cpp" />
     <ClCompile Include="NewRepo.cpp" />
     <ClCompile Include="ReadFile.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ActionPriority.h" />
     <ClInclude Include="ReadFile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
