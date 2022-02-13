@@ -7,4 +7,3 @@ class CheckTrue
 {
 public: bool checkTrue(vector<string> a);
 };
-
