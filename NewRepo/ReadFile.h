@@ -6,7 +6,7 @@ using namespace std;
 class ReadFile
 {
 public: vector<string> readDocument(string name);
-	  void writeDocument(string name, string data);
+void writeDocument(string name, string data);
 
 };
 

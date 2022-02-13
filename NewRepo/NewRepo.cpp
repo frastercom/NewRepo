@@ -10,14 +10,15 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	ReadFile rf = ReadFile();
-	vector<string> param = rf.readDocument("путь к файлу");
+	vector<string> param = rf.readDocument("C://Users//Ученик//Desktop//Новая папка//TEST.txt");
 	CheckTrue ct = CheckTrue();
 	if (ct.checkTrue(param))
 	{
 		ActionPriority ap = ActionPriority();
 		int result = ap.work(param);
 		string sringResult = to_string(result);
-		rf.writeDocument("путь к файлу" ,sringResult);
+		cout << "otvet" << sringResult;
+		rf.writeDocument("C://Users//Ученик//Desktop//Новая папка//TEST2.txt" ,sringResult);
 	}
 	else
 	{
