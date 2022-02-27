@@ -24,15 +24,13 @@ void ReadFile::writeDocument(string name, string data) {
 	ofstream file(name);
 	if (!file) {
 		cout << "error" << endl;
-		return 0;
+		return;
 
 	}
 	
 	for (int i : data) {
-		file << i << endl;
+		file << (char)i;
 	}
 
 	file.close();
-
-	
 }

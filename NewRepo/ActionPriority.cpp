@@ -88,5 +88,6 @@ int ActionPriority::work(vector<string> param)
         math();
 	}
     string s = p.at(0);
+    
     return stoi(s.c_str());
 }
